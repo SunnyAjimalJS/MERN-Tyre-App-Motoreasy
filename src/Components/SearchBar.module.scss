@@ -1,0 +1,12 @@
+.searchBar {
+  width: 800px;
+  margin: 15px;
+  font-size: 1em;
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 10px;
+  outline: none;
+  &:hover {
+    border: 2px solid #47ccde;
+  }
+}

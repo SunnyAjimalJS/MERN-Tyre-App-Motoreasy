@@ -1,0 +1,66 @@
+.listContainer {
+  background-image: url("/images/Background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.paginationNo {
+  font-weight: bold;
+  color: black;
+}
+
+.resultsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1200px;
+}
+
+.resultBox {
+  border-radius: 20px;
+  height: 275px;
+  width: 200px;
+  background-color: #4e4c4c;
+  text-align: center;
+  color: white;
+  .tyreBrand {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .tyrePhoto {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.buttonsAndPageNo {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  .pageNo {
+    font-weight: bold;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .pageButton {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    background-color: #4e4c4c;
+    border-radius: 10px;
+    color: #47ccde;
+    outline: none !important;
+    &:hover {
+      border-color: #47ccde;
+    }
+  }
+}

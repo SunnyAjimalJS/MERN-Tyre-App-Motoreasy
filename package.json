@@ -6,15 +6,29 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "paginate-array": "^2.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-paginate": "^6.3.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "./tools/fileMock.js",
+      "\\.(css|less)$": "./tools/styleMock.js"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(react)"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
   }
 }
