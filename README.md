@@ -1,5 +1,5 @@
 # Tyres App - Motoreasy Tech Test
-> This App was delivered for Motoreasy for a Tyres app built using MongoDB, Express, React and Node.js
+> This App was delivered for Motoreasy as a Tyres search app built using MongoDB, Express, React and Node.js
 
 
 ## Installation
