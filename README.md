@@ -1,6 +1,10 @@
 # Tyres App - Motoreasy Tech Test
 > This App was delivered for Motoreasy as a Tyres search app built using MongoDB, Express, React and Node.js
 
+## Here's a Video Demo of how the App works: 
+
+![RECORDITGIF](http://g.recordit.co/yISmhoWSSC.gif)
+
 
 ## Installation
 
@@ -14,7 +18,7 @@
 $ npm install 
 ```
 
-> *Once this is complete, you are able to start the Server.
+**Once this is complete, you are able to start the Server.**
 
 ### To start the server on localhost - CD in to the backend folder and then run this command: 
 > Copy and paste the below in to your terminal/command line
