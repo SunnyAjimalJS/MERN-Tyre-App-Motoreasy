@@ -16,14 +16,14 @@ $ npm install
 
 > *Once this is complete, you are able to start the Server.
 
-### To start the server on localhost - CD in to the Backend folder and then run this command: 
+### To start the server on localhost - CD in to the backend folder and then run this command: 
 > Copy and paste the below in to your terminal/command line
 
 ```shell
 $ nodemon server 
 ```
 
-> *Once this is complete, Open a new Terminal/CLI to mern-tyres-app - you are now able to start the App.
+## *Once this is complete, Open a new Terminal/CLI to mern-tyres-app - you are now able to start the App.
 
 ### To run the app locally on a local server (localhost:3000) and open in browser: 
 > Copy and paste the below in to your terminal/command line
